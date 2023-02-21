@@ -179,7 +179,7 @@ class HomePage extends StatelessWidget {
           separatorBuilder: (_, i) => const SizedBox(height: 16),
         ),
         floatingActionButton: FloatingActionButton(
-            onPressed: () => Get.toNamed(Routes.chat),
+            onPressed: () => Get.toNamed(Routes.chat_group),
             child: const Icon(Icons.chat)),
       ),
     );
