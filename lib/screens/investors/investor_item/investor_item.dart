@@ -39,7 +39,8 @@ class InvestorItem extends StatelessWidget {
                     children: const [
                       Text.rich(TextSpan(children: [
                         TextSpan(text: 'Họ tên: '),
-                        TextSpan(text: 'Đào Ngọc Nam', style: TextDefine.T2_B),
+                        TextSpan(
+                            text: 'Phạm Nhật Vượng', style: TextDefine.T2_B),
                       ])),
                       Text.rich(TextSpan(children: [
                         TextSpan(text: 'Chuyên ngành: '),
@@ -57,7 +58,7 @@ class InvestorItem extends StatelessWidget {
                           TextSpan(text: 'Giới thiệu: '),
                           TextSpan(
                               text:
-                                  'Đẹp giai được nhiều em gái theo đuổi, có tỉ năm kinh nghiệm tình trường :v',
+                                  'Người sáng lập và chủ tịch tập đoàn Vingroup, tỉ phú đầu tiên của Việt Nam, người giàu nhất Việt Nam',
                               style: TextDefine.P2_B),
                         ]),
                         maxLines: 1,

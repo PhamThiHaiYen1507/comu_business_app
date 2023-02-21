@@ -35,8 +35,8 @@ class ItemInfo {
 const List<ItemInfo> items = [
   ItemInfo(
     userCreatedAvatar: Picture.avatar,
-    userCreated: 'Đào ngọc nam',
-    projectLead: 'Đào ngọc nam',
+    userCreated: 'Phạm Nhật Vượng',
+    projectLead: 'Phạm Nhật Vượng',
     memberDecs: 'Gồm những thành viên gạo cội về lĩnh vực công nghệ thông tin',
     exp: 'Có nhiều kinh nghiệm trong lĩnh vực chứng khoán',
     projectInfo: '...',
@@ -46,8 +46,8 @@ const List<ItemInfo> items = [
   ),
   ItemInfo(
     userCreatedAvatar: Picture.avatar,
-    userCreated: 'Đào ngọc nam',
-    projectLead: 'Đào ngọc nam',
+    userCreated: 'Phạm Nhật Vượng',
+    projectLead: 'Phạm Nhật Vượng',
     memberDecs: 'Gồm những thành viên gạo cội về lĩnh vực công nghệ thông tin',
     exp: 'Có nhiều kinh nghiệm trong lĩnh vực chứng khoán',
     projectInfo: '...',

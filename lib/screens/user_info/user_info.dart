@@ -18,7 +18,7 @@ class UserInfo extends StatelessWidget {
           const Center(child: AppAvatar(asset: Picture.avatar, size: 120)),
           const Center(
               child: Text(
-            'Đào Ngọc Nam',
+            'Phạm Nhật Vượng',
             style: TextDefine.H1_B,
           )),
           const Divider(),

@@ -52,7 +52,7 @@ class Chat extends StatelessWidget {
     return GetBuilder<ChatController>(
       builder: (c) => Scaffold(
         appBar: AppBar(
-          title: const Text('Đào Ngọc Nam'),
+          title: const Text('Phạm Nhật Vượng'),
           centerTitle: true,
         ),
         body: Column(
