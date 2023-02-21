@@ -6,13 +6,14 @@ import 'package:startup/utils/app_colors.dart';
 import 'investors_controller.dart';
 
 class Investors extends StatelessWidget {
-  const Investors({super.key});
+  final bool showAppbar;
+  const Investors({super.key, this.showAppbar = true});
 
   @override
   Widget build(BuildContext context) {
     return GetBuilder<InvestorsController>(
       builder: (c) => Scaffold(
-        appBar: AppBar(),
+        appBar: showAppbar ? AppBar() : null,
         body: DefaultTabController(
           length: 2,
           child: Column(
