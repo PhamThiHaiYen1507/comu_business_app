@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:startup/screens/chat/chat.dart';
+import 'package:startup/screens/chat_group/chat_group.dart';
 import 'package:startup/screens/investors/investors.dart';
 import 'package:startup/utils/svg.dart';
 
@@ -51,7 +51,7 @@ class Home extends StatelessWidget {
         body: IndexedStack(index: c.selectedIndex, children: const [
           HomePage(),
           Investors(showAppbar: false),
-          Chat(),
+          ChatGroup(),
           UserInfo(),
         ]),
         bottomNavigationBar: NavigationBar(

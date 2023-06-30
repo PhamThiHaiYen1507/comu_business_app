@@ -26,7 +26,7 @@ class InvestorItem extends StatelessWidget {
                     width: 60,
                     height: 78,
                     child: Image.asset(
-                      Picture.avatar,
+                      Picture.anh,
                       fit: BoxFit.cover,
                     ),
                   ),

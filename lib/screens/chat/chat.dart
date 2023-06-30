@@ -27,7 +27,7 @@ const messages = [
     content:
         'Bạn giới thiệu cho mình thông tin dự án đang triển khai của bạn để mình tham khảo nhé!!!',
     isUser: false,
-    avatar: Picture.avatar,
+    avatar: Picture.anh,
     time: '10:36',
   ),
   ChatData(
@@ -39,7 +39,7 @@ const messages = [
   ChatData(
     content: 'Xin chào bạn! cho mình làm quen nha',
     isUser: false,
-    avatar: Picture.avatar,
+    avatar: Picture.anh,
     time: '10:34',
   ),
 ];

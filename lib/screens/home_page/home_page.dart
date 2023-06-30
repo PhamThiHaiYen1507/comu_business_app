@@ -34,7 +34,7 @@ class ItemInfo {
 
 const List<ItemInfo> items = [
   ItemInfo(
-    userCreatedAvatar: Picture.avatar,
+    userCreatedAvatar: Picture.anh,
     userCreated: 'Phạm Nhật Vượng',
     projectLead: 'Phạm Nhật Vượng',
     memberDecs: 'Gồm những thành viên gạo cội về lĩnh vực công nghệ thông tin',
@@ -45,11 +45,11 @@ const List<ItemInfo> items = [
     background: Picture.image_background_1,
   ),
   ItemInfo(
-    userCreatedAvatar: Picture.avatar,
-    userCreated: 'Phạm Nhật Vượng',
-    projectLead: 'Phạm Nhật Vượng',
-    memberDecs: 'Gồm những thành viên gạo cội về lĩnh vực công nghệ thông tin',
-    exp: 'Có nhiều kinh nghiệm trong lĩnh vực chứng khoán',
+    userCreatedAvatar: Picture.chan_dung,
+    userCreated: 'Phạm Thị Hải Yến',
+    projectLead: 'Phạm Thị Hải Yến',
+    memberDecs: 'Gồm những thành viên gạo cội về lĩnh vực giáo dục',
+    exp: 'Có nhiều kinh nghiệm trong lĩnh vực giáo dục',
     projectInfo: '...',
     companionCriteria: '...',
     email: '...',

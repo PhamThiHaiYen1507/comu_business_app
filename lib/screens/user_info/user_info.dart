@@ -15,7 +15,7 @@ class UserInfo extends StatelessWidget {
       builder: (c) => ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          const Center(child: AppAvatar(asset: Picture.avatar, size: 120)),
+          const Center(child: AppAvatar(asset: Picture.anh, size: 120)),
           const Center(
               child: Text(
             'Phạm Nhật Vượng',
@@ -26,14 +26,14 @@ class UserInfo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [
               Text('Email'),
-              Text('dev.dnnam@gmail.com', style: TextDefine.P1_M),
+              Text('nhatvuongpham@gmail.com', style: TextDefine.P1_M),
             ],
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [
               Text('Điện thoại liên hệ'),
-              Text('0988 624 316', style: TextDefine.P1_M),
+              Text('0345712348', style: TextDefine.P1_M),
             ],
           ),
           Row(
@@ -47,16 +47,16 @@ class UserInfo extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [
               Text('Ngày sinh'),
-              Text('26/01/1998', style: TextDefine.P1_M),
+              Text('15/07/1980', style: TextDefine.P1_M),
             ],
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: const [
-              Text('Địa chỉ liên hệ'),
-              Text('Kiêu Kỵ - Gia Lâm - Hà Nội', style: TextDefine.P1_M),
-            ],
-          ),
+          // Row(
+          //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //   children: const [
+          //     Text('Địa chỉ liên hệ'),
+          //     Text('', style: TextDefine.P1_M),
+          //   ],
+          // ),
         ],
       ),
     );

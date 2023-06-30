@@ -16,10 +16,36 @@ class GroupItem {
 
 const groups = [
   GroupItem(
-    avatar: Picture.avatar,
-    name: 'Đào Ngọc Nam',
+    avatar: Picture.anh,
+    name: 'Phạm Nhật Vượng',
     lastMsg:
         'Bạn giới thiệu cho mình thông tin dự án đang triển khai của bạn để mình tham khảo nhé!!!',
+  ),
+  GroupItem(
+    avatar: Picture.chan_dung,
+    name: 'Lê Thị Phương Ling',
+    lastMsg: 'Hi! Chào Linh nha',
+  ),
+  GroupItem(
+    avatar: Picture.chan_dung,
+    name: 'Phạm Thị Hải Yến',
+    lastMsg: 'Bạn ơi, có thể cho mình hỏi thêm về dự án bên mình không',
+  ),
+  GroupItem(
+    avatar: Picture.chan_dung,
+    name: 'Phạm Hồng Hiếu',
+    lastMsg:
+        'Bạn giới thiệu cho mình thông tin dự án đang triển khai của bạn để mình tham khảo nhé!!!',
+  ),
+  GroupItem(
+    avatar: Picture.anh,
+    name: 'Tô Hoàng',
+    lastMsg: 'Hello',
+  ),
+  GroupItem(
+    avatar: Picture.anh,
+    name: 'Bùi Vũ',
+    lastMsg: 'Dự án của chúng tôi đã start 3 năm trước',
   ),
 ];
 
@@ -37,7 +63,10 @@ class ChatGroup extends StatelessWidget {
         body: ListView.separated(
           itemBuilder: (context, index) => ListTile(
             onTap: () => Get.toNamed(Routes.chat),
-            leading: Image.asset(Picture.avatar, fit: BoxFit.cover),
+            leading: SizedBox(
+                height: 70,
+                width: 70,
+                child: Image.asset(groups[index].avatar, fit: BoxFit.cover)),
             title: Text(groups[index].name),
             subtitle: Text(
               groups[index].lastMsg,

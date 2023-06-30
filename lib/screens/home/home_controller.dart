@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import 'package:startup/routes/routes.dart';
 
 class HomeController extends GetxController {
   late int selectedIndex;
@@ -11,11 +10,7 @@ class HomeController extends GetxController {
   }
 
   void onChangedSelected(int index) {
-    if (index != 2) {
-      selectedIndex = index;
-      update();
-    } else {
-      Get.toNamed(Routes.chat);
-    }
+    selectedIndex = index;
+    update();
   }
 }
